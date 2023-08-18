@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>CALCULATOR</h1>
+        <div id="cal">
+            <input type="text" id="res" class="text" >
+            <div>   
+                <input id="btn1"type="button" value="("onclick="Solve('(')">
+                <input id="btn1"type="button" value=")"onclick="Solve(')')">
+                    <input id="btn1"type="button" value="ans" onclick="Result('')">
+                    <input id="btn1"type="button" value="del" onclick="del('←')">
+                    <input id="btn1"type="button" value="clear" onclick="Clear('')">
+                    <br>
+                    <input id="btn"type="button" value="7" onclick="Solve('7')">
+                    <input id="btn"type="button" value="8" onclick="Solve('8')">
+                    <input id="btn"type="button" value="9" onclick="Solve('9')">
+                    <input id="btn1"type="button" value="%" onclick="Solve('%')">
+                    <input id="btn1"type="button" value="." onclick="Solve('.')">
+                    <br>
+                    <input id="btn"type="button" value="4" onclick="Solve('4')">
+                    <input id="btn"type="button" value="5" onclick="Solve('5')">
+                    <input id="btn"type="button" value="6" onclick="Solve('6')">
+                    <input id="btn1"type="button" value="x" onclick="Solve('*')">
+                    <input id="btn1"type="button" value="/" onclick="Solve('/')">
+                    <br>
+                    <input id="btn"type="button" value="1" onclick="Solve('1')">
+                    <input id="btn"type="button" value="2" onclick="Solve('2')">
+                    <input id="btn"type="button" value="3" onclick="Solve('3')">
+                    <input id="btn1"type="button" value="+" onclick="Solve('+')">
+                    <input id="btn1"type="button" value="-" onclick="Solve('-')">
+                    <br>
+                    <input id="btn"type="button" value="00" onclick="Solve('00')">
+                    <input id="btn"type="button" value="0" onclick="Solve('0')">
+                    <input id="btn2"type="button" value="ENTER" onclick="Result('')">
+    
+                </div>
+            </div>
+    </body>
+</html>
